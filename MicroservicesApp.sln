@@ -21,8 +21,6 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EventBusRabbitMQ", "src\Com
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Ordering", "Ordering", "{15A697F8-BEAB-43E1-921E-84F1367E9DF1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ordering.API", "..\src\Ordering\Ordering.API\Ordering.API.csproj", "{B4018820-C39D-4632-8338-80768EE2D356}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,10 +43,6 @@ Global
 		{6FBE3F10-9A24-498B-9669-3F96AE17597A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6FBE3F10-9A24-498B-9669-3F96AE17597A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6FBE3F10-9A24-498B-9669-3F96AE17597A}.Release|Any CPU.Build.0 = Release|Any CPU
-		{B4018820-C39D-4632-8338-80768EE2D356}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{B4018820-C39D-4632-8338-80768EE2D356}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{B4018820-C39D-4632-8338-80768EE2D356}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{B4018820-C39D-4632-8338-80768EE2D356}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -61,7 +55,6 @@ Global
 		{45CDFD85-507C-42C3-A243-623BD057228E} = {8B73C86D-3AA3-4BB5-93A3-852B65E8FB75}
 		{6FBE3F10-9A24-498B-9669-3F96AE17597A} = {45CDFD85-507C-42C3-A243-623BD057228E}
 		{15A697F8-BEAB-43E1-921E-84F1367E9DF1} = {8B73C86D-3AA3-4BB5-93A3-852B65E8FB75}
-		{B4018820-C39D-4632-8338-80768EE2D356} = {15A697F8-BEAB-43E1-921E-84F1367E9DF1}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {B79C405A-D1D2-4B55-B99F-A01CA1CD694C}
